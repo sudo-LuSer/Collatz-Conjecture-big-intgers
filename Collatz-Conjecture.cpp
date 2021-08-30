@@ -16,7 +16,7 @@ long long collatz(long long n){
 int main( ){
 	cout<<"Enter N please :";
 	long long n;cin>>n;
-	cout<<"The Serie of collatz intgers :";
+	cout<<"The Serie of collatz intgers : ";
 	cout<<n<<" ";
 	while(n!=1){
 		n=collatz(n);
